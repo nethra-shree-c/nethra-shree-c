@@ -19,5 +19,5 @@ steps:
   displayName: Build an image
   inputs:
     repository: nethraregistry
-    command: build
-    Dockerfile: app/Dockerfile
+    command: docker pull nethraregistry.azurecr.io/nethraregistry:latest
+    Dockerfile: Dockerfile
